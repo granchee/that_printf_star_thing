@@ -20,6 +20,12 @@ int main()
 	c = 99;
 	printf("%.*s<--End of string\n", c, s);
 
+	int i = 1;
+	for (; i < 14; ++i)
+	{
+		printf("%.*s\n", i, s);
+	}
+
 	return 0;
 }
 
